@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    font: D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+#euclid-section{
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Euclid_outsidetowerh_IMG_2487_desktop_a75e89406d.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    
+    
+}
+#starlink{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star_5_12_DSC_7006_desktop_04baf467a8.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    bottom: 5px;
+    background-repeat: no-repeat;
+}
+#psn-satria{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/PSN_Satria_pad39a_DSC_6855_desktop_6dd3f9c0d0.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    bottom: 10px;
+    background-repeat: no-repeat;
+}
+hr{
+    border:none;
+}
+#starship{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    bottom: 15px;
+    background-repeat: no-repeat;
+}
+.bottom-left-text{
+    position: absolute;
+    bottom: 15%;
+    left: 110px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 30px;
+    letter-spacing: 0;
+    font-family: 'D-DIN-Bold', Arial, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px 2px;
+}
+div{
+    display: block;
+}
+button{
+    position: relative;
+    min-width: 130px;
+    padding: 0 15px;
+    margin: 30px 0 0;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    height: 55px;
+    width: 160px;
+}
+button:hover{
+    position: relative;
+    min-width: 130px;
+    padding: 0 15px;
+    margin: 30px 0 0;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 160px;
+    cursor: pointer;
+}
+.recent-launch{
+    font-size: 20px;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}
+.sticky{
+    position: sticky;
+    height: 10px;
+}
+.fill-white{
+    fill: white;
+}
+.logo{
+    height: 50px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+}
+.navigation-bar{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+    
+    
+}
+#left-navigation{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    font-size: 13px;
+    gap: 1.2rem;
+    height: 20px;
+    top: 45px;
+    right: 300px;
+    width: 800px;
+    font-weight: 500;
+    
+}
+li{
+    text-align:center;
+    color: white;
+    text-shadow: 10px 10px 10px 10px #0000 ;
+    
+}
+.dropdown-menu{
+    position: absolute;
+    right:0;
+    top: 45px;
+}
+
+#shop{
+    
+    position: absolute;
+    right:65px;
+    top:45px;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
